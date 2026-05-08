@@ -6,11 +6,12 @@ On:
 
 jobs:
   Greet:
-  runs-on: ubuntu-latest 
+    runs-on: ubuntu-latest
   
-  Steps:  
-    - name: say hello to users
-      runs: echo "Hello from kaustubh"
+    steps:
+     - name: say hello to users
+       run: echo "Hello from Kaustubh"
+      
   
 
   
